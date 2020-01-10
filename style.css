@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    /*centering the clock in the middle of the screen*/
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(140,107,196,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#clock {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    color: white;
+}
